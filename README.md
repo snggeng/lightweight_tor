@@ -1,7 +1,9 @@
 # lightweight_tor
 A lightweight, python implementation of onion routing used by tor. This is a proof of concept where the user enters a web url on the command line and then receives the anonymized response in html, css, and js.
 
-It is set up so that relay nodes are run on local host at different port numbers, but it could easily be tweaked to run on remote servers. 
+It is set up so that relay nodes are run on local host at different port numbers, but it could easily be tweaked to run on remote servers.
+
+**This repository was forked from the [original](https://github.com/sfbaker7/lightweight_tor), which I worked on with 2 other friends. You should refer to the original project for the most updated version.**
 
 ## Background
 TOR, an open source and free software designed to provide online anonymity. TOR’s name is derived from “The Onion Routing”.  It uses a voluntary network of several thousand voluntary relay server nodes in order to shield users from network surveillance and traffic analysis.
